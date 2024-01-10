@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 117, 117);
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    border: 2px solid rgb(102, 11, 11);
+    width: 300px;
+    padding: 15px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box button {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+}
